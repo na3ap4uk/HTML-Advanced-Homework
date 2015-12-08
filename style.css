@@ -1,0 +1,190 @@
+body{
+	padding: 20px;
+	font-family: Verdana, sans-serif, Harrington;
+	font-size: 14px;
+	line-height: 1,4;
+}
+.wrapper {
+	margin: auto;
+	width: 800px;
+}
+/*header*/
+.logo{
+	margin: auto;
+	color: black;
+	font-family: Harrington;
+	font-size: 20px;
+	padding: 20px;
+	line-height: 0;
+	width: 300px;
+	text-align: center;
+}
+.logotext {
+	font-size: 12px;
+	font-family: Arial;
+}
+.red {
+	color: #fc0712;
+}
+.menu {
+	list-style: none;
+	background-color: #ffeb94;
+	padding: 10px;
+	border: 1px solid gray;
+	width: 780px;
+	margin: 20px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+.menu li {
+	display: inline-block;
+}
+.menu a {
+	text-decoration: none;
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.menu a:hover {
+	color: #fc0712;
+}
+
+/* center */
+.registration {
+	background-color: #fbedb0;
+	margin-top: 0px;
+	margin: 20px;
+	width: 800px;
+	height: 800px;
+	border: 1px solid gray;
+	position: center;
+	line-height: 2;
+}
+.loginform {
+	margin: 30px;
+	width: 700px;
+	padding: 20px;
+	text-align: right;
+}
+.firstloginform {
+	padding-right: 230px;
+}
+.secondloginform {
+	text-align: center;
+}
+.thirdloginform {
+	padding-left: 50px;	
+	text-align: left;
+}
+.middle p{
+	text-align: center;
+}
+
+.loginform label {
+	padding: 5px;
+	margin: 10px;
+}
+.loginform input {
+	padding: 5px;
+}
+.loginform legend {
+	text-align: center;
+}
+.lecture {
+	background-color: #fbedb0;
+	width: 800px;
+	height: 500px;
+	margin: 20px;
+	border: 1px solid gray;
+	display: inline-block;
+	text-align: center;
+}
+.lecture fieldset{
+	width: 700px;
+	margin: 40px;
+}
+video[poster]{
+	height: 90%;
+	width: 90%;
+}
+video{
+	border: 1px solid black;
+}
+.standart{
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+}
+/*library*/
+.registration section{
+	text-align: center;
+	margin-top: 20 px;
+}
+iframe {
+	width: 560px;
+	height: 315px;
+}
+/*footer*/
+footer {
+	background-color: #ffeb94;
+	padding: 10px;
+	border: 1px solid gray;
+	width: 780px;
+	height: 150px;
+	margin: 20px;
+	text-align: center;
+}
+footer div {
+	display: inline-block;
+}
+/*footer-a-li styles*/
+.socialnet{
+	width: 400px;
+}
+.production{
+	width: 300px;
+}
+.socialnet li {
+	display: inline-block;
+}
+.socialnet a {
+	text-decoration: none;
+	color: white;
+	margin:5px;
+}
+.socialnet a:hover{
+	width:75px;
+	height:75px;
+}
+.facebook{
+	background-color: #4065b4;
+	border-radius: 5px;
+	display: block;
+	font-size: 50px;
+	width: 70px;
+	height: 70px;
+}
+.vkontakte{
+	background-color: #4e759d;
+	border-radius: 5px;
+	display: block;
+	font-size: 50px;
+	width: 70px;
+	height: 70px;
+}
+.linkedin{
+	background-color: #157fb9;
+	border-radius: 5px;
+	display: block;
+	font-size: 50px;
+	width: 70px;
+	height: 70px;
+}
+.gmail{
+	background-color: #ff6d4a;
+	border-radius: 5px;
+	display: block;
+	font-size: 50px;
+	width: 70px;
+	height: 70px;
+}

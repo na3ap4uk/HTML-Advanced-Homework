@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> FindTeacher.net </title>
+<meta charset= "utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<link type="text/css" rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <h1>Find<span class="red">Teacher</span>.net</h1>
+                    <p class="logotext">найкращий сервіс пошуку репетитора</p>
+            </div>
+                <nav>
+                    <div>
+                        <ul class="menu">
+                            <li><a href="">ГОЛОВНА</a></li>
+                            <li><a href="">ПОДІЇ</a></li>
+                            <li><a href="">КАБІНЕТ</a></li>
+                            <li><a href="/library.html">БІБЛІОТЕКА</a></li>
+                            <li><form><input type="search"/><button>шукати</button></form></li>
+                        </ul>
+                    </div>
+                </nav>
+        </header>
+    <div class="registration">
+        <div>
+            <form class="loginform">
+                <fieldset>
+                    <legend>Реєстрація:</legend>
+                        <p class="firstloginform">
+                            <label for="login">Логін:</label>
+							    <input type="text" id="login"/>
+								    <br>
+									<br>
+                            <label for="name">Ім'я:</label>
+							    <input type="text" id="name"/>
+								    <br>
+									<br>
+                            <label for="mail">e-mail:</label>
+							    <input type="email" id="mail"/>
+								    <br>
+									<br>
+							<label for="phone">Номер тел.:</label>
+							    <input type="tel" id="phone" placeholder="+380..." pattern="[0-9]"/>
+								    <br>
+                            <label>Статус:</label>
+                                <input type="radio" value="yes"/> - вчитель
+                                <input type="radio" value="no"/> - учень 
+								    <br>
+                        </p>
+                        <p class="secondloginform">Оберіть сферу діяльності (навчання):<br>
+                            <select size="1">
+                                <option value="IT">ІТ-технології, курси програмування;</option>
+	                            <option value="language">Курси іноземних мов;</option>
+	                            <option value="medicine">Здоров'я, курси масажу;</option>
+	                            <option value="construction">Будівництво, підвищення кваліфікації;</option>
+	                            <option value="services">Сфера послуг, готельно-ресторанний бізнес;</option>
+	                            <option value="sport">Спортивні гуртки, фітнес;</option>
+	                            <option value="tourism">Туризм, курси екскурсоводів;</option>
+	                            <option value="arts">Мистецтво, уроки гри на музичних інструментах;</option>
+	                            <option value="ZNO">Підготовка до ЗНО;</option>
+	                            <option value="Another">Інше;</option>
+                            </select>
+                        </p>
+                        <p class="secondloginform">Про себе:<br>
+                            <textarea name="about" rows="10" cols="44" placeholder="Опишіть свої послуги, або вкажіть мету навчання..."></textarea>
+						    <br>
+						</p>
+                        <p class="thirdloginform">
+                            <label>
+                                <input type="checkbox" name="checkbox"/> погоджуюсь дотримуватись правил сайту (почитати правила <a href="rules">тут</a>);
+                            </label>
+					        <br>
+                            <label>
+                                <input type="checkbox" name="checkbox"/> надаю згоду на обробку та використоння моїх персональних даних;
+                            </label>
+                            <br>
+                        </p>
+                        <p class="secondloginform">
+                            <input type="submit" value="зареєструвати">
+                            <input type="reset" value="скасувати">
+                        </p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <div class="lecture">
+        <h5>Рекомендуємо онлайн-лекції:</h5>
+        <figure>
+            <video width="640" height="360" poster="data/findteachernet.png" controls>
+                <source src="data/Historia.mp4" type="video/mp4">
+	            відео обробляється
+            </video>
+            <br>
+            <figcaption>Чудовий онлайн-курс з історії Польщі від найдавніших племен до сьогодні...
+			<br>
+			Повний курс можна переглянути <a href="https://youtu.be/apMIgj0pi-U" target="blank">тут</a>!</figcaption>
+        </figure>
+    </div>
+<div class="lecture">
+    <h5>СУПЕР АКЦІЯ !!!</h5>
+        <p>Зареєструйтесь на нашому сайті та отримайте безкоштовні візитки з логотипом Find<span class="red">Teacher</span>.net !</p>
+		    <fieldset>
+		        <legend>Надіслати заявку:</legend>
+					<form>
+					    <img class="standart" src="data/vizytka.png" alt="Візитка">
+					        <br>
+                        <label for="date">Оберіть зручні для Вас дату та час отримання візиток: </label>
+                            <input type="datetime" id="date"/>
+                            <br>
+							<br>
+                        <label for="colorchoose">Оберіть колір для стилю вашої візитки:</label>
+                            <input type="color" id="colorchoose"/> 
+							<br>
+							<br>
+					    <label for="editcolor">та вкажіть у відповідному <span title="відтінок-контраст-яскравість-червоний-зелений-синій">форматі*</span>:
+							<input type="text" id="editcolor" placeholder="111-111-111-111-111-111" pattern="[0-9]"/>
+						</label>
+						    <br>
+							<br>
+						    <input type="submit" value="замовити">
+                            <input type="reset" value="скасувати">
+                    </form>
+		    </fieldset>
+</div>
+
+<footer>
+    <div class="production">
+	    <p>УВАГА!<br> Сайт створений виключно в навчальних цілях!<br></p>
+	    <p>Copyright © na3ap4uk=)</p>
+	</div>
+	<div class="socialnet">
+        <h5>Приєднуйтесь до нас у соцмережах:</h5>
+        <ul>
+            <li><a class="facebook" href="#">f</a></li>
+	        <li><a class="vkontakte" href="#">B</a></li>
+	        <li><a class="linkedin" href="#linkedin">in</a></li>
+	        <li><a class="gmail" href="#gmail">g+</a></li>
+        </ul>
+    </div>
+</footer>
+</div>
+</body>
+</html>
